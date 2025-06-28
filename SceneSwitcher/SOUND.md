@@ -2,10 +2,15 @@
 Adds a new Macro action to [Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher) that will play an audio file.
 
 ### Installation
-**Dependency:** [Pydub](https://github.com/jiaaro/pydub)
+**Dependencies:** [Pydub](https://github.com/jiaaro/pydub)  
+(+ ffmpeg or libav for non-wav files.)
 
 ```
 pip install pydub
+```
+
+```
+apt-get install ffmpeg libavcodec-extra
 ```
 
 
@@ -29,7 +34,7 @@ Then just open Advanced Scene Switcher from the Tools menu from before. The new 
 Specify a full path to the audio file, or use the _Browse_ button to open the file manager and locate your file of choice.
 
 #### Type: 
-**[mandatory]** This tells Pydub's _play_ command what filetype the file is. Usually this will match the file extension, so put that here. Failing to correctly provide this will generate an error.
+**[mandatory]** This tells Pydub's _play_ method what filetype the file is. Usually this will match the file extension, so put that here. Failing to correctly provide this will generate an error.
 
 <br>
 
