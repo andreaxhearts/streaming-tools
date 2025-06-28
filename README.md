@@ -2,7 +2,7 @@
 Various code and utilities extending other live streaming programs for Windows and Linux.
 
 ## Advanced Scene Switcher
-
+#### [Scripting](https://github.com/WarmUpTill/SceneSwitcher/wiki/Scripting)
 ### - Sound Action -
 Adds a new Macro action to [Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher) that will play an audio file.
 
