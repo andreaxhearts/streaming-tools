@@ -55,6 +55,6 @@ if modules not in sys.path:
 [...]
 ```
 
-_Create a [venv](https://docs.python.org/3/library/venv.html)_ : `python -m venv /path/to/new/virtual/environment`  
+_Create a [venv](https://docs.python.org/library/venv.html)_ : `python -m venv /path/to/new/virtual/environment`  
 _Activate_ : `. ~/.venv/env/bin/activate`  
 _Installing modules_ : `python -m pip install pip --upgrade`
