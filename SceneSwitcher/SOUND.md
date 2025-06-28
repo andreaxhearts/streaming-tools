@@ -1,9 +1,4 @@
-# streaming-tools
-Various code and utilities extending other live streaming programs for Windows and Linux.
-
-## Advanced Scene Switcher
-
-### - Sound Action -
+# Sound Action
 Adds a new Macro action to [Advanced Scene Switcher](https://github.com/WarmUpTill/SceneSwitcher) that will play an audio file.
 
 ### Installation
@@ -41,8 +36,8 @@ Specify a full path to the audio file, or use the _Browse_ button to open the fi
 ### Using a Venv:
 If you are using an externally-managed environment with Python, you may need to modify the code to include the path to your _Python_ modules.  
 Add in the top section, before importing Pydub:
-
 ##### adv-ss-sound.py
+
 ```
 import os
 import sys
