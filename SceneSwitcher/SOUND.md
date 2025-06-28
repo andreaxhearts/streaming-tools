@@ -12,7 +12,7 @@ pip install pydub
 Download the Python script from this repository from the _SceneSwitcher_ directory to a location on your device.
 
 ![OBS menu bar with 'Tools' menu open and cursor hovering over it. This image edit has the Scripts menu item text with a blue underline.](/SceneSwitcher/adv-ss-soundaction-1.png "OBS Tools Menu")  
-*Tools 🢒 Scripts 🢒 'Add Scripts' + button 🢒 adv-ss-sound.py*
+*Tools &#9656; Scripts &#9656; 'Add Scripts' + button &#9656; adv-ss-sound.py*
 
 Click '**Scripts**' in the Tools
 menu of OBS Studio's main window.  
