@@ -37,7 +37,8 @@ def run_action(data, instance_id):
 
 def get_action_properties():
     props = obs.obs_properties_create()
-    obs.obs_properties_add_path(props, "browse", "File:", obs.OBS_PATH_FILE, "Audio Files (*.wav *.ogg *.mp3 *.aac *.m4a *.flac *.alac *.aiff *.wma *.pcm *.opus *.ape);;All Files (*.*)", None)
+    file_formats = "*.wav *.ogg *.mp3 *.aac *.m4a *.flac *.alac *.aiff *.wma *.pcm *.opus *.ape *.vorbis"
+    obs.obs_properties_add_path(props, "browse", "File:", obs.OBS_PATH_FILE, "Audio Files ("+file_formats+");;All Files (*.*)", None)
     obs.obs_properties_add_text(props, "type", "Type:", obs.OBS_TEXT_DEFAULT)
     return props
 
