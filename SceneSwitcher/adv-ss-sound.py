@@ -1,9 +1,9 @@
 import obspython as obs
 
 from typing import NamedTuple
-import threading  # Required by advss helpers
 from pydub import AudioSegment
 from pydub.playback import play
+import threading  # Required by advss helpers
 
 action_name = "Sound"
 
