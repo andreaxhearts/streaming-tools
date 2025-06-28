@@ -21,7 +21,7 @@ Download the Python script from this repository from the _SceneSwitcher_ directo
 
 Click '**Scripts**' in the Tools
 menu of OBS Studio's main window.  
-In the window that opens, click the **+** button to add a script, then browse to the .py file you saved. OBS will load this file at startup.
+In the window that opens, click the <img src=./assets/obs_button_add.webp alt="plus" width="28"/> button to add a script, then browse to the .py file you saved. OBS will load this file at startup.
 
 ![OBS window for the Advanced Scene Switcher plugin, with added Macro Action 'Sound' highlighted in blue by mouse cursor.](/SceneSwitcher/adv-ss-soundaction-2.png "Advanced Scene Switcher")  
 
@@ -51,6 +51,8 @@ home = os.path.expanduser("~")
 modules = os.path.join(home, ".venv/<my-env-here>/lib/<my-py-version>/site-packages")
 if modules not in sys.path:
     sys.path.append(modules)
+
+[...]
 ```
 
 Then use `pip install pydub`. You can create a [venv](https://docs.python.org/3/library/venv.html) with `python -m venv /path/to/new/virtual/environment`.
