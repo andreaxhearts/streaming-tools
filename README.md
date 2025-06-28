@@ -53,4 +53,4 @@ if modules not in sys.path:
     sys.path.append(modules)
 ```
 
-Then use `pip install pydub`.
+Then use `pip install pydub`. You can create a [venv](https://docs.python.org/3/library/venv.html) with `python -m venv /path/to/new/virtual/environment`.
